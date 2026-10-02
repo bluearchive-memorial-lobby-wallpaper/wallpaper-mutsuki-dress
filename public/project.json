@@ -286,6 +286,10 @@
           {
             "label": "Japanese",
             "value": "ja"
+          },
+          {
+            "label": "Korean",
+            "value": "ko"
           }
         ],
         "order": 42,

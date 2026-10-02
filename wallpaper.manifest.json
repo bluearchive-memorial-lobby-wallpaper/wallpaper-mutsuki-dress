@@ -24,7 +24,8 @@
     "preview": true,
     "voice": {
       "locales": [
-        "ja"
+        "ja",
+        "ko"
       ]
     },
     "source": {

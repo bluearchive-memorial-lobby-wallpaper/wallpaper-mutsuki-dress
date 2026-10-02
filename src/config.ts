@@ -21,7 +21,7 @@ export const PROJECT = {
   editionLabel: `PUBLIC EDITION · ${__WALLPAPER_VERSION__}`,
 } as const;
 
-export const VOICE_LOCALES: readonly VoiceLocale[] = ["ja"];
+export const VOICE_LOCALES: readonly VoiceLocale[] = ["ja","ko"];
 export const SUBTITLE_LOCALES: readonly SubtitleLocale[] = ["ja"];
 
 export const BGM = {
@@ -117,18 +117,18 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "id": "ch0246_memoriallobby_2_1",
         "text": {
           "zh-cn": "",
-          "ja": "え、意外？……いつもイタズラばっかりしてるから？",
-          "ko": "",
-          "en": ""
+          "ja": "今回もすっごく面白そう！",
+          "ko": "이번 일도 엄청\n재밌을 것 같아! 그치?",
+          "en": "Things are gonna be super fun! Don'tcha think?"
         }
       },
       {
         "id": "ch0246_memoriallobby_2_2",
         "text": {
           "zh-cn": "",
-          "ja": "くふふっ。私だって誰彼構わずやるわけじゃないって。",
-          "ko": "",
-          "en": ""
+          "ja": "ん～……潜入ルートはぁ\n……あっち、かな？",
+          "ko": "흐응~? 잠입 경로는\n저쪽일까나?",
+          "en": "Hmm? Could our route in be that way?"
         }
       }
     ]
@@ -143,27 +143,27 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "id": "ch0246_memoriallobby_3_1",
         "text": {
           "zh-cn": "",
-          "ja": "まあ、だから……そのお金をどうするかは、任せるよ。",
-          "ko": "",
-          "en": ""
+          "ja": "なあに？ムツキちゃんと\n遊びたいの？くふふっ。",
+          "ko": "왜에? 무츠키 쨩이랑\n놀고 싶어? 쿠후훗.",
+          "en": "What's wrong? You don't want to play with this super-cute Mutsuki? Kufufu."
         }
       },
       {
         "id": "ch0246_memoriallobby_3_2",
         "text": {
           "zh-cn": "",
-          "ja": "先生なら、ちゃんと意味のあることに使ってくれるでしょ？",
-          "ko": "",
-          "en": ""
+          "ja": "なあに？ムツキちゃんと\n遊びたいの？くふふっ。",
+          "ko": "왜에? 무츠키 쨩이랑\n놀고 싶어? 쿠후훗.",
+          "en": "What's wrong? You don't want to play with this super-cute Mutsuki? Kufufu."
         }
       },
       {
         "id": "ch0246_memoriallobby_3_3",
         "text": {
           "zh-cn": "",
-          "ja": "どっかに寄付してもいいし、先生の活動資金にしてもいいし……。",
-          "ko": "",
-          "en": ""
+          "ja": "なあに？ムツキちゃんと\n遊びたいの？くふふっ。",
+          "ko": "왜에? 무츠키 쨩이랑\n놀고 싶어? 쿠후훗.",
+          "en": "What's wrong? You don't want to play with this super-cute Mutsuki? Kufufu."
         }
       }
     ]
@@ -178,18 +178,18 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "id": "ch0246_memoriallobby_4_1",
         "text": {
           "zh-cn": "",
-          "ja": "それが嫌なら、先生が預かるってことにして――",
-          "ko": "",
-          "en": ""
+          "ja": "仕事が終わったら一緒に\nオペラ観に行かない？\n絶対楽しいよ♪",
+          "ko": "이번 일 끝나면,\n같이 오페라를 보러 가자!\n분명 즐거울 거야♪",
+          "en": "Let's watch an opera together after this! I'm sure it'll be fun! ♪"
         }
       },
       {
         "id": "ch0246_memoriallobby_4_2",
         "text": {
           "zh-cn": "",
-          "ja": "私たちの未来のために取っておいても、いいかもね？",
-          "ko": "",
-          "en": ""
+          "ja": "仕事が終わったら一緒に\nオペラ観に行かない？\n絶対楽しいよ♪",
+          "ko": "이번 일 끝나면,\n같이 오페라를 보러 가자!\n분명 즐거울 거야♪",
+          "en": "Let's watch an opera together after this! I'm sure it'll be fun! ♪"
         }
       }
     ]
