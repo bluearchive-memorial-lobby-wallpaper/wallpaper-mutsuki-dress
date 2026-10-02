@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "kind": "pipeline-binary-package",
+  "immutable": true,
+  "variantId": "dress",
+  "canonicalId": "mutsuki-dress",
+  "studentId": "mutsuki",
+  "runId": "run-000000000157",
+  "runInfo": {
+    "alias": "regional-preset-update-and-publish",
+    "stages": [
+      "regional-preset-preflight",
+      "acquire-resources",
+      "prepare-assets",
+      "validate-structure",
+      "commit-regional-preset",
+      "observe-wp",
+      "plan-wp-release",
+      "bump-wp-version",
+      "tag-wp",
+      "update-description",
+      "build",
+      "static-test",
+      "browser",
+      "wallpaper-engine",
+      "package-check",
+      "commit-github",
+      "gate-publish",
+      "official-editor-pre-submit",
+      "official-editor-ui-pre-submit",
+      "official-editor-submit",
+      "tag-workshop",
+      "push-github",
+      "release-finalize"
+    ]
+  },
+  "versionTag": "v1.1.0",
+  "projectId": "wallpaper-mutsuki-dress",
+  "package": {
+    "name": "mutsuki-dress-wallpaper",
+    "version": "1.1.0"
+  },
+  "files": [
+    {
+      "path": "assets/index-dH8c6IZt.js",
+      "sha256": "a756ca892dfebd0e364c5f7c5a64579cea30587744e517723c1cb9afedc707f3",
+      "size": 152000
+    },
+    {
+      "path": "assets/index-Dvrd4XH3.css",
+      "sha256": "7edd305a4bec7d64c5dd9193116f29e99151cbc63cf52bd0f2ecf1be9e02bcf6",
+      "size": 11894
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_1_1.ogg",
+      "sha256": "5fedfbdc11fd0baca441b72d6114f606d4bed20c7ab604e307a6d4d9cc308194",
+      "size": 28490
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_1_2.ogg",
+      "sha256": "7fb299adc1b37c72149d1f0a71708168bb8874cbaaa8912a38ee8738c234d02c",
+      "size": 59929
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_2_1.ogg",
+      "sha256": "ff420735b351db3d7b0f428b3fd1334a07b5ace3e049f35b9851342bf9480685",
+      "size": 43434
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_2_2.ogg",
+      "sha256": "2d826852df902fbd513e29962d40e4f4ffde836fad2c004610f995b990d94dd2",
+      "size": 41680
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_2_3.ogg",
+      "sha256": "8cb52b4ff3e8f4fd0919d64c83b05e915a18a217a50faa36a1830d2cdf5d04d9",
+      "size": 48031
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_3_1.ogg",
+      "sha256": "0722febebf27429dff6bfb749d052cbf52bd26a6149db730f49ef4086ceb5551",
+      "size": 30487
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_3_2.ogg",
+      "sha256": "4b15963937f6b2a5fb18648d394ec4d42448a68a4f943e479f7dfdb381857f69",
+      "size": 33984
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_4_1.ogg",
+      "sha256": "b8f32f1591f0dffde7ba999ca4c69ad32d26d2773d8765193727056ea8978708",
+      "size": 40362
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_4_2.ogg",
+      "sha256": "4d2f35971c2c9372a7486c9de42017df55b1a1698c02864fa55d0b9dba7cd63c",
+      "size": 31418
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_5_1.ogg",
+      "sha256": "586062ddd6b39522b2b248e72bf21851e3a2e8a93170dc195ee7ed9f3431cb89",
+      "size": 25830
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_lobby_5_2.ogg",
+      "sha256": "a31c18fb40912a25bc3b4d1887169b8b0e12a2385291e8e5170dc0ca30213ed2",
+      "size": 36379
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_login_1.ogg",
+      "sha256": "244abaf4209dc96b0097f303ea2a840ce999ddd96187d1482f59624b6f61e18f",
+      "size": 61966
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_login_2.ogg",
+      "sha256": "7863d0eafdc40ee1e4e3856787f4efd8e315f053c51c9d61aeb4d89537ebc0fc",
+      "size": 26256
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_1.ogg",
+      "sha256": "c5783f674a68413e9cdc7a6d021d3e5ac9dc568f3888cee43fd4db19fbf50051",
+      "size": 47755
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_2_1.ogg",
+      "sha256": "120054f3e6c5a35c231c311eff701f819ffbb543f0eaa04c8c826a737be27340",
+      "size": 38437
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_2_2.ogg",
+      "sha256": "978d829ae70b32885f31ac2c3e3b673b6ab363f64d26baa54d7f0b795388653c",
+      "size": 39249
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_3_1.ogg",
+      "sha256": "c324f2aa05635d3df3635aba0f9c778944df5cc3908999d15c38043c638fc379",
+      "size": 42597
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_3_2.ogg",
+      "sha256": "e5093a5350ea35c83f66684c3ec1e1ee972e46626b28eaad9cbbed49e754e9d0",
+      "size": 34875
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_3_3.ogg",
+      "sha256": "c1cdaf19ec12cb0b11f128532cacefb9800f0c7805b70a8fe9453524478e9074",
+      "size": 44879
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_4_1.ogg",
+      "sha256": "851beb8f0722e0b40b584cf7a9e20a166177fcdc89e32b1ed24e996cdf66e810",
+      "size": 36839
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_4_2.ogg",
+      "sha256": "c3123b573fda25914009fd5e5888e1f05f1107104e397ffb0d1cf1023332ba24",
+      "size": 34253
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_5.ogg",
+      "sha256": "88ab8145543147f54b6f291e6d520c4b39fd0facd93ec19bcf63bd4a6526ad16",
+      "size": 23169
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_memoriallobby_6.ogg",
+      "sha256": "8f1f5250507eeb005adcac0282da1789ec54c05e7d6dda2443e45fc78244b91d",
+      "size": 32044
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_birthday_1.ogg",
+      "sha256": "9d4be7604cf9aeba1d7bff879ee9fa919dc12547279092cfb2c4197123f54ecd",
+      "size": 28780
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_birthday_2.ogg",
+      "sha256": "3033a9bfeab17c7b1e6940c14815186b72a55ab1ea586b40d0501e93e82c3e9f",
+      "size": 54371
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_birthday_player_1.ogg",
+      "sha256": "ae6920d5731b04aedcb168d9af79dbdd290692091c60b702a8c8e5c5e0e99f64",
+      "size": 23512
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_birthday_player_2.ogg",
+      "sha256": "cc0e4e7623c6a9bdc12a9eeb3380999ea3945b8a6ec7af274a087f10b124997a",
+      "size": 19972
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_halloween_1.ogg",
+      "sha256": "00c0153518526854e3481a973f6829aa36421c35e2babd89678f2a23125599bc",
+      "size": 33858
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_halloween_2.ogg",
+      "sha256": "15961c1aa263a5387ef1e2dfffb5ccde72266950a853e10e8675731b14f69fe8",
+      "size": 24348
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_halloween_3.ogg",
+      "sha256": "fae2298ea815e3b7710ef4cc8288e93ff3684d14c5f218b6b3acf6d90c5682d8",
+      "size": 28797
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_newyear_1.ogg",
+      "sha256": "ffc6cf9440c54d34e744a729ea00ed6ad36c7fcbafbe0063ebc738177c19b918",
+      "size": 36786
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_newyear_2.ogg",
+      "sha256": "7d028c01264c509fd81558372039f0ba8a3d955fda7b7422c5ef3145a425ecaf",
+      "size": 15797
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_xmas_1.ogg",
+      "sha256": "651586cbbbbfa33f2a889ae88e89a4aaa1ea9089e325364767156af541ce707d",
+      "size": 46835
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_season_xmas_2.ogg",
+      "sha256": "0e2303c2273256e72a89b72484d8b8dd2ad48da1ad59e551f0b1fcb16b099545",
+      "size": 24537
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ja/ch0246_title.ogg",
+      "sha256": "f125b4c2da8d9297574e224361c45e9bc8a59d104d0e4c8a09b90b6518b816a5",
+      "size": 24208
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_1.ogg",
+      "sha256": "c5783f674a68413e9cdc7a6d021d3e5ac9dc568f3888cee43fd4db19fbf50051",
+      "size": 47755
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_2_1.ogg",
+      "sha256": "120054f3e6c5a35c231c311eff701f819ffbb543f0eaa04c8c826a737be27340",
+      "size": 38437
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_2_2.ogg",
+      "sha256": "978d829ae70b32885f31ac2c3e3b673b6ab363f64d26baa54d7f0b795388653c",
+      "size": 39249
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_3_1.ogg",
+      "sha256": "c324f2aa05635d3df3635aba0f9c778944df5cc3908999d15c38043c638fc379",
+      "size": 42597
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_3_2.ogg",
+      "sha256": "e5093a5350ea35c83f66684c3ec1e1ee972e46626b28eaad9cbbed49e754e9d0",
+      "size": 34875
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_3_3.ogg",
+      "sha256": "c1cdaf19ec12cb0b11f128532cacefb9800f0c7805b70a8fe9453524478e9074",
+      "size": 44879
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_4_1.ogg",
+      "sha256": "851beb8f0722e0b40b584cf7a9e20a166177fcdc89e32b1ed24e996cdf66e810",
+      "size": 36839
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_4_2.ogg",
+      "sha256": "c3123b573fda25914009fd5e5888e1f05f1107104e397ffb0d1cf1023332ba24",
+      "size": 34253
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_5.ogg",
+      "sha256": "88ab8145543147f54b6f291e6d520c4b39fd0facd93ec19bcf63bd4a6526ad16",
+      "size": 23169
+    },
+    {
+      "path": "assets/mutsuki-dress/audio/ko/ch0246_memoriallobby_6.ogg",
+      "sha256": "8f1f5250507eeb005adcac0282da1789ec54c05e7d6dda2443e45fc78244b91d",
+      "size": 32044
+    },
+    {
+      "path": "assets/mutsuki-dress/bgm/my-character-bgm.flac",
+      "sha256": "def61cc1a4320dd367e7483bece2db82a49258c7bb5187609b2a8ed9d1305d6a",
+      "size": 1449574
+    },
+    {
+      "path": "assets/mutsuki-dress/model-4k/CH0246_home_2.png",
+      "sha256": "e8ff113fe08bd714165301498e132d2f55fe4bcdf3522ab4d616fb5caebb6828",
+      "size": 3434483
+    },
+    {
+      "path": "assets/mutsuki-dress/model-4k/CH0246_home.png",
+      "sha256": "9628d87935c398b41a50b5842aa559cb58ab706ed1ea1216b7bb8847f2b452e4",
+      "size": 2619452
+    },
+    {
+      "path": "assets/mutsuki-dress/model-4k/my-character.atlas",
+      "sha256": "557ad3655dcde598243e42c1e931f343357b35416a7b9fbcf3ff863c1441bc41",
+      "size": 11036
+    },
+    {
+      "path": "assets/mutsuki-dress/model-4k/my-character.skel",
+      "sha256": "cd93707a52c6f597dfe9b231981d23ae1298ec6d5ba05c92cb0f41abae321986",
+      "size": 940864
+    },
+    {
+      "path": "assets/mutsuki-dress/model-8k/CH0246_home_2.png",
+      "sha256": "e8ff113fe08bd714165301498e132d2f55fe4bcdf3522ab4d616fb5caebb6828",
+      "size": 3434483
+    },
+    {
+      "path": "assets/mutsuki-dress/model-8k/CH0246_home.png",
+      "sha256": "9628d87935c398b41a50b5842aa559cb58ab706ed1ea1216b7bb8847f2b452e4",
+      "size": 2619452
+    },
+    {
+      "path": "assets/mutsuki-dress/model-8k/my-character.atlas",
+      "sha256": "557ad3655dcde598243e42c1e931f343357b35416a7b9fbcf3ff863c1441bc41",
+      "size": 11036
+    },
+    {
+      "path": "assets/mutsuki-dress/model-8k/my-character.skel",
+      "sha256": "cd93707a52c6f597dfe9b231981d23ae1298ec6d5ba05c92cb0f41abae321986",
+      "size": 940864
+    },
+    {
+      "path": "assets/mutsuki-dress/model/CH0246_home_2.png",
+      "sha256": "e8ff113fe08bd714165301498e132d2f55fe4bcdf3522ab4d616fb5caebb6828",
+      "size": 3434483
+    },
+    {
+      "path": "assets/mutsuki-dress/model/CH0246_home.png",
+      "sha256": "9628d87935c398b41a50b5842aa559cb58ab706ed1ea1216b7bb8847f2b452e4",
+      "size": 2619452
+    },
+    {
+      "path": "assets/mutsuki-dress/model/my-character.atlas",
+      "sha256": "557ad3655dcde598243e42c1e931f343357b35416a7b9fbcf3ff863c1441bc41",
+      "size": 11036
+    },
+    {
+      "path": "assets/mutsuki-dress/model/my-character.skel",
+      "sha256": "cd93707a52c6f597dfe9b231981d23ae1298ec6d5ba05c92cb0f41abae321986",
+      "size": 940864
+    },
+    {
+      "path": "index.html",
+      "sha256": "852884a9c9f1bf47638e07be5b1c802ae90b0bbdad0ddb971eaa2674d75a8538",
+      "size": 615
+    },
+    {
+      "path": "logging-bootstrap.js",
+      "sha256": "241c98017502d02e3f2dfc874d3bd57a7899d4da6a45c21090bef3953cc98eef",
+      "size": 7693
+    },
+    {
+      "path": "OFFLINE-README.txt",
+      "sha256": "e520ec23bf701a7599cc8d4272b872bb91f1aac232af49ae17d5df622e2902ab",
+      "size": 1186
+    },
+    {
+      "path": "preview.gif",
+      "sha256": "5b0c5fde075a8498282e8179ec058736084583e8849ed25142b39b9f5aee3d33",
+      "size": 905039
+    },
+    {
+      "path": "project.json",
+      "sha256": "7d9c98b2a5b6bd04794c65639966f2b77d3d25dbec7dd05d98de367951147e17",
+      "size": 17051
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "sha256": "aa6382fc728b8ecdf735dc4c5945267e69e3d404320ba873eb7ed58c6d035db1",
+      "size": 1507
+    },
+    {
+      "path": "vendor/spine-webgl-4.2.js",
+      "sha256": "faccf252486de234c69a045aa6024b6688ded578eff09103607adfaedd7752b6",
+      "size": 554544
+    }
+  ],
+  "contentDigest": "1d9f7578d945cc5062c0710107e0804339155fc442a98aa5df3167cd8b6cd485",
+  "manifestDigest": "3ea6195881f61b898dadefa643728e5a474ae7800feffc827d2a0ed857f6a195"
+}
