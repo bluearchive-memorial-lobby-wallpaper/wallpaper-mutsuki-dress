@@ -22,7 +22,7 @@ export const PROJECT = {
 } as const;
 
 export const VOICE_LOCALES: readonly VoiceLocale[] = ["ja","ko"];
-export const SUBTITLE_LOCALES: readonly SubtitleLocale[] = ["ja"];
+export const SUBTITLE_LOCALES: readonly SubtitleLocale[] = ["ja","ko","en"];
 
 export const BGM = {
   title: "Daily Routine 247",
@@ -101,8 +101,8 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "text": {
           "zh-cn": "",
           "ja": "あのね？こう見えても私、結構信頼してるんだよ？先生のこと。",
-          "ko": "",
-          "en": ""
+          "ko": "あのね？こう見えても私、結構信頼してるんだよ？先生のこと。",
+          "en": "あのね？こう見えても私、結構信頼してるんだよ？先生のこと。"
         }
       }
     ]
@@ -205,8 +205,8 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "text": {
           "zh-cn": "",
           "ja": "え？何を言っているのかって？",
-          "ko": "",
-          "en": ""
+          "ko": "え？何を言っているのかって？",
+          "en": "え？何を言っているのかって？"
         }
       }
     ]
@@ -222,8 +222,8 @@ export const DIALOGUES: readonly DialogueDefinition[] = [
         "text": {
           "zh-cn": "",
           "ja": "くふふっ！さあ？どういう意味だろうね♪",
-          "ko": "",
-          "en": ""
+          "ko": "くふふっ！さあ？どういう意味だろうね♪",
+          "en": "くふふっ！さあ？どういう意味だろうね♪"
         }
       }
     ]
