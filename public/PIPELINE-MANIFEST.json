@@ -5,15 +5,10 @@
   "variantId": "dress",
   "canonicalId": "mutsuki-dress",
   "studentId": "mutsuki",
-  "runId": "run-000000000157",
+  "runId": "run-000000000161",
   "runInfo": {
-    "alias": "regional-preset-update-and-publish",
+    "alias": "update-acceptance-publish",
     "stages": [
-      "regional-preset-preflight",
-      "acquire-resources",
-      "prepare-assets",
-      "validate-structure",
-      "commit-regional-preset",
       "observe-wp",
       "plan-wp-release",
       "bump-wp-version",
@@ -34,17 +29,17 @@
       "release-finalize"
     ]
   },
-  "versionTag": "v1.1.0",
+  "versionTag": "v1.1.1",
   "projectId": "wallpaper-mutsuki-dress",
   "package": {
     "name": "mutsuki-dress-wallpaper",
-    "version": "1.1.0"
+    "version": "1.1.1"
   },
   "files": [
     {
-      "path": "assets/index-dH8c6IZt.js",
-      "sha256": "a756ca892dfebd0e364c5f7c5a64579cea30587744e517723c1cb9afedc707f3",
-      "size": 152000
+      "path": "assets/index-BbX-qWFc.js",
+      "sha256": "000376951a29b6e9654fa3a1a3fe2ba9550cdd791c405b01093e961a8c633c87",
+      "size": 150817
     },
     {
       "path": "assets/index-Dvrd4XH3.css",
@@ -343,7 +338,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "852884a9c9f1bf47638e07be5b1c802ae90b0bbdad0ddb971eaa2674d75a8538",
+      "sha256": "65441519bd36d45e83c2e764a12617ca91dc2165908a631fc9b13b7fed749a31",
       "size": 615
     },
     {
@@ -363,8 +358,8 @@
     },
     {
       "path": "project.json",
-      "sha256": "7d9c98b2a5b6bd04794c65639966f2b77d3d25dbec7dd05d98de367951147e17",
-      "size": 17051
+      "sha256": "7c0099c93b22bea22d419dda3570b98a63ec548acc9e01e465fcd8c8668eea27",
+      "size": 17210
     },
     {
       "path": "THIRD-PARTY-NOTICES.txt",
@@ -377,6 +372,6 @@
       "size": 554544
     }
   ],
-  "contentDigest": "1d9f7578d945cc5062c0710107e0804339155fc442a98aa5df3167cd8b6cd485",
-  "manifestDigest": "3ea6195881f61b898dadefa643728e5a474ae7800feffc827d2a0ed857f6a195"
+  "contentDigest": "b5fbf240ef2fc8ead316efb745694dc4b6f9e10c53d6d2a29fce111a9d84dbc7",
+  "manifestDigest": "26c46a675e68be1512092ef37f79d0575979cda20c9435f8fcb0bd007202ccbe"
 }

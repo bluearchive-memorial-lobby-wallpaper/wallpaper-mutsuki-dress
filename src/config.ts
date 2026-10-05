@@ -21,8 +21,8 @@ export const PROJECT = {
   editionLabel: `PUBLIC EDITION · ${__WALLPAPER_VERSION__}`,
 } as const;
 
-export const VOICE_LOCALES: readonly VoiceLocale[] = ["ja"];
-export const SUBTITLE_LOCALES: readonly SubtitleLocale[] = ["ja"];
+export const VOICE_LOCALES: readonly VoiceLocale[] = ["ja", "ko"];
+export const SUBTITLE_LOCALES: readonly SubtitleLocale[] = ["ja", "ko", "en"];
 
 export const BGM = {
   title: "Daily Routine 247",
@@ -89,7 +89,7 @@ export const MODEL = {
 
 // Example dialogue placeholders. Replace the ids with the real event ids used
 // by the voice files and fill in the localized subtitle text.
-const GENERATED_DIALOGUES: readonly DialogueDefinition[] = [
+export const DIALOGUES: readonly DialogueDefinition[] = [
   {
     "index": 1,
     "motionAnimation": "Talk_01_M",
@@ -233,24 +233,6 @@ const GENERATED_DIALOGUES: readonly DialogueDefinition[] = [
 // Corrective release: retain only the verified Japanese source until the
 // official Global memorial-lobby subtitle mapping is repaired. No locale may
 // inherit or duplicate Japanese text.
-export const DIALOGUES: readonly DialogueDefinition[] = [
-  { index: 1, motionAnimation: "Talk_01_M", attachmentAnimation: "Talk_01_A", duration: 13.000000953674316, lines: [{ id: "ch0246_memoriallobby_1", text: { "zh-cn": "", ja: "あのね？こう見えても私、結構信頼してるんだよ？先生のこと。", ko: "", en: "" } }] },
-  { index: 2, motionAnimation: "Talk_02_M", attachmentAnimation: "Talk_02_A", duration: 18.166667938232422, lines: [
-    { id: "ch0246_memoriallobby_2_1", text: { "zh-cn": "", ja: "え、意外？……いつもイタズラばっかりしてるから？", ko: "", en: "" } },
-    { id: "ch0246_memoriallobby_2_2", text: { "zh-cn": "", ja: "くふふっ。私だって誰彼構わずやるわけじゃないって。", ko: "", en: "" } },
-  ] },
-  { index: 3, motionAnimation: "Talk_03_M", attachmentAnimation: "Talk_03_A", duration: 28.700000762939453, lines: [
-    { id: "ch0246_memoriallobby_3_1", text: { "zh-cn": "", ja: "まあ、だから……そのお金をどうするかは、任せるよ。", ko: "", en: "" } },
-    { id: "ch0246_memoriallobby_3_2", text: { "zh-cn": "", ja: "先生なら、ちゃんと意味のあることに使ってくれるでしょ？", ko: "", en: "" } },
-    { id: "ch0246_memoriallobby_3_3", text: { "zh-cn": "", ja: "どっかに寄付してもいいし、先生の活動資金にしてもいいし……。", ko: "", en: "" } },
-  ] },
-  { index: 4, motionAnimation: "Talk_04_M", attachmentAnimation: "Talk_04_A", duration: 19.500001907348633, lines: [
-    { id: "ch0246_memoriallobby_4_1", text: { "zh-cn": "", ja: "それが嫌なら、先生が預かるってことにして――", ko: "", en: "" } },
-    { id: "ch0246_memoriallobby_4_2", text: { "zh-cn": "", ja: "私たちの未来のために取っておいても、いいかもね？", ko: "", en: "" } },
-  ] },
-  { index: 5, motionAnimation: "Talk_05_M", attachmentAnimation: "Talk_05_A", duration: 12.333333969116211, lines: [{ id: "ch0246_memoriallobby_5", text: { "zh-cn": "", ja: "え？何を言っているのかって？", ko: "", en: "" } }] },
-  { index: 6, motionAnimation: "Talk_06_M", attachmentAnimation: "Talk_06_A", duration: 11.600000381469727, lines: [{ id: "ch0246_memoriallobby_6", text: { "zh-cn": "", ja: "くふふっ！さあ？どういう意味だろうね♪", ko: "", en: "" } }] },
-] as const;
 
 export function voicePath(eventId: string, locale: VoiceLocale): string {
   return `./assets/${PROJECT.slug}/audio/${locale}/${eventId.toLowerCase()}.ogg`;
